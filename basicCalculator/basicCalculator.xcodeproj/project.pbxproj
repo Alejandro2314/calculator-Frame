@@ -10,6 +10,7 @@
 		C0050A9121B88B7B0020AD16 /* basicCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0050A8721B88B7B0020AD16 /* basicCalculator.framework */; };
 		C0050A9621B88B7B0020AD16 /* basicCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0050A9521B88B7B0020AD16 /* basicCalculatorTests.m */; };
 		C0050A9821B88B7B0020AD16 /* basicCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = C0050A8A21B88B7B0020AD16 /* basicCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0050AA421B892100020AD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0050AA321B892100020AD16 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C0050A9021B88B7B0020AD16 /* basicCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basicCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0050A9521B88B7B0020AD16 /* basicCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basicCalculatorTests.m; sourceTree = "<group>"; };
 		C0050A9721B88B7B0020AD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0050AA321B892100020AD16 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				C0050A8A21B88B7B0020AD16 /* basicCalculator.h */,
 				C0050A8B21B88B7B0020AD16 /* Info.plist */,
+				C0050AA321B892100020AD16 /* Main.storyboard */,
 			);
 			path = basicCalculator;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0050AA421B892100020AD16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
